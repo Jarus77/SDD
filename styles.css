@@ -1,0 +1,83 @@
+body{
+  background: #151515;
+  color: #ffffff;
+}
+h1{
+  background: linear-gradient(270deg, #6012D9 -3.32%, #FF0099 100.16%, #000000 100.16%); -webkit-linear-gradient(340deg, rgba(255,0,153,1) 24%, rgba(96,18,217,1) 74%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+    }
+b{
+font-family: 'Inter', sans-serif;
+font-size: 13px;
+line-height: 40px;
+letter-spacing: 0px;
+margin:0px;
+padding: 0px;
+ }
+p{
+  font-family: 'Inter', sans-serif;
+  font-size: 13px;
+}
+
+
+#p1{
+  line-height: 40px;
+}
+
+#p2{
+
+}
+
+#p3{
+
+}
+#header{
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 54px;
+  line-height: 50px;
+
+}
+.image{
+ padding:0px;
+  width: auto;
+}
+.top-container{
+  margin:99px;
+  margin-right: 10px;
+  margin-top: 70px;
+}
+.nav-space{
+margin-left: 20px;
+
+    }
+.button1{
+  width:250px;
+  height: 50px
+  letter-spacing:0px;
+  font-size: 17px;
+  padding:9px;
+  margin-top: 40px;
+  border-width: 2.5px;
+  background: linear-gradient(270deg, #6012D9 -3.32%, #FF0099 100.16%, #000000 100.16%);
+   font-weight:bold;
+}
+.button1:hover{
+  background:#ffffff;
+  color: ;
+}
+ .hide{
+  visibility: hidden;
+}
+img:hover{
+  opacity: 0.5;
+}
+.myDIV:hover +.hide{
+ visibility: visible;
+}
+.middle-container{
+  margin-left:70px;
+  margin-right: 10px;
+}
